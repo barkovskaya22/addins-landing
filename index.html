@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add-ins for Revit to simplify your workflow - e-verse</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row align-items-baseline">
+				<div class="col-md-6">
+					<a href="#home" class="logo"><img src="images/logo-everse.svg" class="img-fluid" alt=""></a>
+				</div>
+				<div class="col-md-6">
+					<nav>
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="slider-banner slider-for">
+			<div id="home" class="slide slide-01">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<h1>E-verse Addins - <br> 
+								Simplifying Your <br>
+								Revit Workflow </h1>
+							<p>Introducing e-verse Addins for Revit:  A Suite of add-ins Made with Love, crafted for efficiency. Explore Veronica, Leia, and Pris - your key to streamlined Revit workflows. Download for Free Today!</p>
+						</div>
+						<div class="col-md-6">
+							<div class="img-player">
+								<img src="images/home-mock.png" class="img-fluid" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="leia" class="slide slide-02">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<img src="images/logo_leia-big.png" class="img-fluid img-logo">
+							<p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.</p>
+						</div>
+						<div class="col-md-6">
+							<div class="img-player">
+								<img src="images/leia-mock.png" class="img-fluid" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="pris" class="slide slide-03">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<img src="images/logo_pris-big.png" class="img-fluid img-logo">
+							<p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.</p>
+						</div>
+						<div class="col-md-6">
+							<div class="img-player">
+								<img src="images/pris-mock.png" class="img-fluid" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="veronica" class="slide slide-04">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<img src="images/logo_veronica-big.png" class="img-fluid img-logo">
+							<p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.</p>
+						</div>
+						<div class="col-md-6">
+							<div class="img-player">
+								<img src="images/veronica-mock.png" class="img-fluid" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider-thumbnail">
+			<ul class="slider-nav">
+				<li><a href="#leia"><img src="images/leia-small.png" class="img-fluid" alt=""></a></li>
+				<li><a href="#pris"><img src="images/pris-small.png" class="img-fluid" alt=""></a></li>
+				<li><a href="#veronica"><img src="images/veronica-small.png" class="img-fluid" alt=""></a></li>
+			</ul>
+		</div>
+	</section>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script type="text/javascript"> 
+		$('.slider-for').slick({
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  arrows: false,
+		  fade: true,
+		  asNavFor: '.slider-nav'
+		});
+		$('.slider-nav').slick({
+		  slidesToShow: 3,
+		  asNavFor: '.slider-for',
+		  dots: false,
+		  focusOnSelect: true
+		});
+		
+	</script>
+</body>
+</html>
